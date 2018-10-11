@@ -59,6 +59,8 @@ import UIKit
 
 class Solution {
     
+    
+    
     func isMatch(_ s: String, _ p: String) -> Bool {
         
         guard !p.isEmpty else {
@@ -89,15 +91,55 @@ class Solution {
     }
 }
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let tb = UITableView(frame: CGRect.zero)
+        tb.delegate = self;
+        tb.dataSource = self;
+        tb.frame = self.view.frame
+        tb.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        self.view.addSubview(tb)
+        
         let solution : Solution = Solution()
         print(solution.isMatch("bbaaac", "bba*"))
-//        solution.isMatch("mississippi", "mis*is*p*.")
-        // Do any additional setup after loading the view, typically from a nib.
+        
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1;
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 50
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
+        switch indexPath.row {
+        case 2:
+            cell.textLabel?.text = "2. Add Two Number"
+        case 48:
+            cell.textLabel?.text = "48. Rotate Image"
+        default:
+            break
+        }
+        return cell;
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var vc : UIViewController
+        switch indexPath.row {
+        case 2:
+            vc = AddTwoNumbersViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+        case 48:
+            vc = MultiplyStringsViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+        default: break
+        }
     }
 }
 

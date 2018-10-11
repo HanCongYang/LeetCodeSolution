@@ -12,6 +12,9 @@
 		110CAA80215DB7A5006BC527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110CAA7E215DB7A5006BC527 /* Main.storyboard */; };
 		110CAA82215DB7A7006BC527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110CAA81215DB7A7006BC527 /* Assets.xcassets */; };
 		110CAA85215DB7A7006BC527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110CAA83215DB7A7006BC527 /* LaunchScreen.storyboard */; };
+		11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */; };
+		11BF2DF9216EE32A00060EA1 /* RotateImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */; };
+		11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */; };
 		11D05351215E07A7000E99FF /* MergeKSortedListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D05350215E07A7000E99FF /* MergeKSortedListsViewController.swift */; };
 		11F3711E215F145F00DD2206 /* TwoSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3711D215F145F00DD2206 /* TwoSumViewController.swift */; };
 		11F37120215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3711F215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift */; };
@@ -25,6 +28,9 @@
 		110CAA81215DB7A7006BC527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		110CAA84215DB7A7006BC527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		110CAA86215DB7A7006BC527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStringsViewController.swift; sourceTree = "<group>"; };
+		11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageViewController.swift; sourceTree = "<group>"; };
+		11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersViewController.swift; sourceTree = "<group>"; };
 		11D05350215E07A7000E99FF /* MergeKSortedListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeKSortedListsViewController.swift; sourceTree = "<group>"; };
 		11F3711D215F145F00DD2206 /* TwoSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumViewController.swift; sourceTree = "<group>"; };
 		11F3711F215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstringViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 		110CAA79215DB7A5006BC527 /* LeetCodeSolution */ = {
 			isa = PBXGroup;
 			children = (
+				11BF2DE9216D879F00060EA1 /* 1-50 */,
 				110CAA7A215DB7A5006BC527 /* AppDelegate.swift */,
 				110CAA7C215DB7A5006BC527 /* ViewController.swift */,
 				11D05350215E07A7000E99FF /* MergeKSortedListsViewController.swift */,
@@ -71,6 +78,16 @@
 				11F3711F215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift */,
 			);
 			path = LeetCodeSolution;
+			sourceTree = "<group>";
+		};
+		11BF2DE9216D879F00060EA1 /* 1-50 */ = {
+			isa = PBXGroup;
+			children = (
+				11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */,
+				11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */,
+				11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */,
+			);
+			path = "1-50";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +163,11 @@
 			files = (
 				110CAA7D215DB7A5006BC527 /* ViewController.swift in Sources */,
 				11F3711E215F145F00DD2206 /* TwoSumViewController.swift in Sources */,
+				11BF2DF9216EE32A00060EA1 /* RotateImageViewController.swift in Sources */,
 				11D05351215E07A7000E99FF /* MergeKSortedListsViewController.swift in Sources */,
+				11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */,
 				11F37120215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift in Sources */,
+				11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */,
 				110CAA7B215DB7A5006BC527 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
