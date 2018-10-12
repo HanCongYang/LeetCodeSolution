@@ -103,8 +103,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tb.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         self.view.addSubview(tb)
         
-        let solution : Solution = Solution()
-        print(solution.isMatch("bbaaac", "bba*"))
+//        let solution : Solution = Solution()
+//        print(solution.isMatch("bbaaac", "bba*"))
         
     }
     
@@ -113,17 +113,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 50
+        return 100
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
         switch indexPath.row {
-        case 2:
+        case 1:
             cell.textLabel?.text = "2. Add Two Number"
+        case 2:
+            cell.textLabel?.text = "3. Longest Substring Without Repeating Characters"
         case 48:
             cell.textLabel?.text = "48. Rotate Image"
+        case 52:
+            cell.textLabel?.text = "53. Maximum Subarray"
+            
         default:
+            cell.textLabel?.text = ""
             break
         }
         return cell;
@@ -132,12 +138,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         var vc : UIViewController
         switch indexPath.row {
-        case 2:
+        case 1:
             vc = AddTwoNumbersViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+        case 2:
+            vc = LongestSubstringWithoutRepeatingCharactersViewController()
             self.navigationController?.pushViewController(vc, animated:true)
         case 48:
             vc = MultiplyStringsViewController()
             self.navigationController?.pushViewController(vc, animated:true)
+        case 52:
+            vc = MaximumSubarrayViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+
         default: break
         }
     }
