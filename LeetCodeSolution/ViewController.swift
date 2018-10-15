@@ -123,6 +123,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.textLabel?.text = "2. Add Two Number"
         case 2:
             cell.textLabel?.text = "3. Longest Substring Without Repeating Characters"
+        case 5:
+            cell.textLabel?.text = "6. ZigZag Conversion"
         case 48:
             cell.textLabel?.text = "48. Rotate Image"
         case 52:
@@ -143,6 +145,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.navigationController?.pushViewController(vc, animated:true)
         case 2:
             vc = LongestSubstringWithoutRepeatingCharactersViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+        case 5:
+            vc = ZigZagConversionViewController()
             self.navigationController?.pushViewController(vc, animated:true)
         case 48:
             vc = MultiplyStringsViewController()
