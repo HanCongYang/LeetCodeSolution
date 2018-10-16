@@ -13,6 +13,8 @@
 		110CAA82215DB7A7006BC527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110CAA81215DB7A7006BC527 /* Assets.xcassets */; };
 		110CAA85215DB7A7006BC527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110CAA83215DB7A7006BC527 /* LaunchScreen.storyboard */; };
 		1127EDB2217469CE003CA2C8 /* ZigZagConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127EDB1217469CE003CA2C8 /* ZigZagConversionViewController.swift */; };
+		1128D7BF2175A81A00B0FD25 /* PalindromeNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7BD2175A81A00B0FD25 /* PalindromeNumberViewController.swift */; };
+		1128D7C32175AFE700B0FD25 /* ContainerWithMostWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7C12175AFE600B0FD25 /* ContainerWithMostWaterViewController.swift */; };
 		11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */; };
 		11BF2DF9216EE32A00060EA1 /* RotateImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */; };
 		11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */; };
@@ -32,6 +34,8 @@
 		110CAA84215DB7A7006BC527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		110CAA86215DB7A7006BC527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1127EDB1217469CE003CA2C8 /* ZigZagConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversionViewController.swift; sourceTree = "<group>"; };
+		1128D7BD2175A81A00B0FD25 /* PalindromeNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumberViewController.swift; sourceTree = "<group>"; };
+		1128D7C12175AFE600B0FD25 /* ContainerWithMostWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterViewController.swift; sourceTree = "<group>"; };
 		11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStringsViewController.swift; sourceTree = "<group>"; };
 		11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageViewController.swift; sourceTree = "<group>"; };
 		11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */,
 				11BF2E052170334200060EA1 /* MaximumSubarrayViewController.swift */,
 				1127EDB1217469CE003CA2C8 /* ZigZagConversionViewController.swift */,
+				1128D7BD2175A81A00B0FD25 /* PalindromeNumberViewController.swift */,
+				1128D7C12175AFE600B0FD25 /* ContainerWithMostWaterViewController.swift */,
 			);
 			path = "1-50";
 			sourceTree = "<group>";
@@ -172,6 +178,7 @@
 			files = (
 				11BF2E0421702CC700060EA1 /* LongestSubstringWithoutRepeatingCharactersViewController.swift in Sources */,
 				110CAA7D215DB7A5006BC527 /* ViewController.swift in Sources */,
+				1128D7BF2175A81A00B0FD25 /* PalindromeNumberViewController.swift in Sources */,
 				1127EDB2217469CE003CA2C8 /* ZigZagConversionViewController.swift in Sources */,
 				11F3711E215F145F00DD2206 /* TwoSumViewController.swift in Sources */,
 				11BF2DF9216EE32A00060EA1 /* RotateImageViewController.swift in Sources */,
@@ -179,6 +186,7 @@
 				11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */,
 				11F37120215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift in Sources */,
 				11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */,
+				1128D7C32175AFE700B0FD25 /* ContainerWithMostWaterViewController.swift in Sources */,
 				11BF2E062170334200060EA1 /* MaximumSubarrayViewController.swift in Sources */,
 				110CAA7B215DB7A5006BC527 /* AppDelegate.swift in Sources */,
 			);
