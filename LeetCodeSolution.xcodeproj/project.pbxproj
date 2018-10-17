@@ -15,6 +15,9 @@
 		1127EDB2217469CE003CA2C8 /* ZigZagConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127EDB1217469CE003CA2C8 /* ZigZagConversionViewController.swift */; };
 		1128D7BF2175A81A00B0FD25 /* PalindromeNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7BD2175A81A00B0FD25 /* PalindromeNumberViewController.swift */; };
 		1128D7C32175AFE700B0FD25 /* ContainerWithMostWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7C12175AFE600B0FD25 /* ContainerWithMostWaterViewController.swift */; };
+		1128D7CA2176023100B0FD25 /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7C92176023100B0FD25 /* BinarySearchViewController.swift */; };
+		1128D7CC2176043700B0FD25 /* PoweringANumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7CB2176043700B0FD25 /* PoweringANumberViewController.swift */; };
+		1128D7D52176C83900B0FD25 /* StringsAndCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7D42176C83900B0FD25 /* StringsAndCharactersViewController.swift */; };
 		11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */; };
 		11BF2DF9216EE32A00060EA1 /* RotateImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */; };
 		11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */; };
@@ -36,6 +39,9 @@
 		1127EDB1217469CE003CA2C8 /* ZigZagConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversionViewController.swift; sourceTree = "<group>"; };
 		1128D7BD2175A81A00B0FD25 /* PalindromeNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumberViewController.swift; sourceTree = "<group>"; };
 		1128D7C12175AFE600B0FD25 /* ContainerWithMostWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterViewController.swift; sourceTree = "<group>"; };
+		1128D7C92176023100B0FD25 /* BinarySearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
+		1128D7CB2176043700B0FD25 /* PoweringANumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoweringANumberViewController.swift; sourceTree = "<group>"; };
+		1128D7D42176C83900B0FD25 /* StringsAndCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsAndCharactersViewController.swift; sourceTree = "<group>"; };
 		11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStringsViewController.swift; sourceTree = "<group>"; };
 		11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageViewController.swift; sourceTree = "<group>"; };
 		11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +82,8 @@
 		110CAA79215DB7A5006BC527 /* LeetCodeSolution */ = {
 			isa = PBXGroup;
 			children = (
+				1128D7D32176C81C00B0FD25 /* LanguageGuide */,
+				1128D7C52176019400B0FD25 /* Other */,
 				11BF2DE9216D879F00060EA1 /* 1-50 */,
 				110CAA7A215DB7A5006BC527 /* AppDelegate.swift */,
 				110CAA7C215DB7A5006BC527 /* ViewController.swift */,
@@ -88,6 +96,31 @@
 				11F3711F215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift */,
 			);
 			path = LeetCodeSolution;
+			sourceTree = "<group>";
+		};
+		1128D7C52176019400B0FD25 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1128D7C82176021B00B0FD25 /* DivideAndConquer */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1128D7C82176021B00B0FD25 /* DivideAndConquer */ = {
+			isa = PBXGroup;
+			children = (
+				1128D7C92176023100B0FD25 /* BinarySearchViewController.swift */,
+				1128D7CB2176043700B0FD25 /* PoweringANumberViewController.swift */,
+			);
+			path = DivideAndConquer;
+			sourceTree = "<group>";
+		};
+		1128D7D32176C81C00B0FD25 /* LanguageGuide */ = {
+			isa = PBXGroup;
+			children = (
+				1128D7D42176C83900B0FD25 /* StringsAndCharactersViewController.swift */,
+			);
+			path = LanguageGuide;
 			sourceTree = "<group>";
 		};
 		11BF2DE9216D879F00060EA1 /* 1-50 */ = {
@@ -178,6 +211,7 @@
 			files = (
 				11BF2E0421702CC700060EA1 /* LongestSubstringWithoutRepeatingCharactersViewController.swift in Sources */,
 				110CAA7D215DB7A5006BC527 /* ViewController.swift in Sources */,
+				1128D7CA2176023100B0FD25 /* BinarySearchViewController.swift in Sources */,
 				1128D7BF2175A81A00B0FD25 /* PalindromeNumberViewController.swift in Sources */,
 				1127EDB2217469CE003CA2C8 /* ZigZagConversionViewController.swift in Sources */,
 				11F3711E215F145F00DD2206 /* TwoSumViewController.swift in Sources */,
@@ -189,6 +223,8 @@
 				1128D7C32175AFE700B0FD25 /* ContainerWithMostWaterViewController.swift in Sources */,
 				11BF2E062170334200060EA1 /* MaximumSubarrayViewController.swift in Sources */,
 				110CAA7B215DB7A5006BC527 /* AppDelegate.swift in Sources */,
+				1128D7CC2176043700B0FD25 /* PoweringANumberViewController.swift in Sources */,
+				1128D7D52176C83900B0FD25 /* StringsAndCharactersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -40,7 +40,12 @@ class ZigZagConversionViewController: UIViewController {
         }
         for str in answerArray {
             answer += str
+            if answer.count == 0 {
+                
+            }
+            
         }
+        
         return answer
     }
     
