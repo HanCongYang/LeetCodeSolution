@@ -93,10 +93,10 @@ class Solution {
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    let tb : UITableView = UITableView(frame: CGRect.zero)
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let tb = UITableView(frame: CGRect.zero)
         tb.delegate = self;
         tb.dataSource = self;
         tb.frame = self.view.frame
@@ -108,6 +108,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        tb.scrollToRow(at: IndexPath(row: 74, section: 0), at: UITableViewScrollPosition.middle, animated: true)
+    }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1;
     }
@@ -133,7 +136,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.textLabel?.text = "48. Rotate Image"
         case 52:
             cell.textLabel?.text = "53. Maximum Subarray"
-            
+        case 74:
+            cell.textLabel?.text = "75. Sort Colors"
         default:
             cell.textLabel?.text = ""
             break
@@ -165,7 +169,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case 52:
             vc = MaximumSubarrayViewController()
             self.navigationController?.pushViewController(vc, animated:true)
-
+        case 74:
+            vc = SortColorsViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+            
         default: break
         }
     }

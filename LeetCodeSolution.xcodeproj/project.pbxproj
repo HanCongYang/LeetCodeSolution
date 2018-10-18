@@ -23,6 +23,7 @@
 		11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */; };
 		11BF2E0421702CC700060EA1 /* LongestSubstringWithoutRepeatingCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2E0321702CC700060EA1 /* LongestSubstringWithoutRepeatingCharactersViewController.swift */; };
 		11BF2E062170334200060EA1 /* MaximumSubarrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2E052170334200060EA1 /* MaximumSubarrayViewController.swift */; };
+		11C5AC8A21781090001E006C /* SortColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC8921781090001E006C /* SortColorsViewController.swift */; };
 		11D05351215E07A7000E99FF /* MergeKSortedListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D05350215E07A7000E99FF /* MergeKSortedListsViewController.swift */; };
 		11F3711E215F145F00DD2206 /* TwoSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3711D215F145F00DD2206 /* TwoSumViewController.swift */; };
 		11F37120215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3711F215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift */; };
@@ -47,6 +48,7 @@
 		11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersViewController.swift; sourceTree = "<group>"; };
 		11BF2E0321702CC700060EA1 /* LongestSubstringWithoutRepeatingCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharactersViewController.swift; sourceTree = "<group>"; };
 		11BF2E052170334200060EA1 /* MaximumSubarrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarrayViewController.swift; sourceTree = "<group>"; };
+		11C5AC8921781090001E006C /* SortColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortColorsViewController.swift; sourceTree = "<group>"; };
 		11D05350215E07A7000E99FF /* MergeKSortedListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeKSortedListsViewController.swift; sourceTree = "<group>"; };
 		11F3711D215F145F00DD2206 /* TwoSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumViewController.swift; sourceTree = "<group>"; };
 		11F3711F215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstringViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				1128D7D32176C81C00B0FD25 /* LanguageGuide */,
 				1128D7C52176019400B0FD25 /* Other */,
 				11BF2DE9216D879F00060EA1 /* 1-50 */,
+				11C5AC8821780F5B001E006C /* 51-100 */,
 				110CAA7A215DB7A5006BC527 /* AppDelegate.swift */,
 				110CAA7C215DB7A5006BC527 /* ViewController.swift */,
 				11D05350215E07A7000E99FF /* MergeKSortedListsViewController.swift */,
@@ -136,6 +139,14 @@
 				1128D7C12175AFE600B0FD25 /* ContainerWithMostWaterViewController.swift */,
 			);
 			path = "1-50";
+			sourceTree = "<group>";
+		};
+		11C5AC8821780F5B001E006C /* 51-100 */ = {
+			isa = PBXGroup;
+			children = (
+				11C5AC8921781090001E006C /* SortColorsViewController.swift */,
+			);
+			path = "51-100";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 				11BF2E062170334200060EA1 /* MaximumSubarrayViewController.swift in Sources */,
 				110CAA7B215DB7A5006BC527 /* AppDelegate.swift in Sources */,
 				1128D7CC2176043700B0FD25 /* PoweringANumberViewController.swift in Sources */,
+				11C5AC8A21781090001E006C /* SortColorsViewController.swift in Sources */,
 				1128D7D52176C83900B0FD25 /* StringsAndCharactersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
