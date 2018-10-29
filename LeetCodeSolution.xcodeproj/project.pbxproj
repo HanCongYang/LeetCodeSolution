@@ -18,6 +18,11 @@
 		1128D7CA2176023100B0FD25 /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7C92176023100B0FD25 /* BinarySearchViewController.swift */; };
 		1128D7CC2176043700B0FD25 /* PoweringANumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7CB2176043700B0FD25 /* PoweringANumberViewController.swift */; };
 		1128D7D52176C83900B0FD25 /* StringsAndCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7D42176C83900B0FD25 /* StringsAndCharactersViewController.swift */; };
+		11618CFD217EEC5100F01A25 /* InterleavingStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11618CFC217EEC5100F01A25 /* InterleavingStringViewController.swift */; };
+		11A4556021800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4555F21800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift */; };
+		11A455622180581F00D03A67 /* IntegerToRomanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A455612180581F00D03A67 /* IntegerToRomanViewController.swift */; };
+		11A4556421805EBC00D03A67 /* RomanToIntegerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4556321805EBC00D03A67 /* RomanToIntegerViewController.swift */; };
+		11A8A5C4217DA56C008AB408 /* Problem50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8A5C3217DA56C008AB408 /* Problem50ViewController.swift */; };
 		11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */; };
 		11BF2DF9216EE32A00060EA1 /* RotateImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */; };
 		11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */; };
@@ -43,6 +48,11 @@
 		1128D7C92176023100B0FD25 /* BinarySearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
 		1128D7CB2176043700B0FD25 /* PoweringANumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoweringANumberViewController.swift; sourceTree = "<group>"; };
 		1128D7D42176C83900B0FD25 /* StringsAndCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsAndCharactersViewController.swift; sourceTree = "<group>"; };
+		11618CFC217EEC5100F01A25 /* InterleavingStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterleavingStringViewController.swift; sourceTree = "<group>"; };
+		11A4555F21800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueBinarySearchTreesViewController.swift; sourceTree = "<group>"; };
+		11A455612180581F00D03A67 /* IntegerToRomanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerToRomanViewController.swift; sourceTree = "<group>"; };
+		11A4556321805EBC00D03A67 /* RomanToIntegerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntegerViewController.swift; sourceTree = "<group>"; };
+		11A8A5C3217DA56C008AB408 /* Problem50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem50ViewController.swift; sourceTree = "<group>"; };
 		11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStringsViewController.swift; sourceTree = "<group>"; };
 		11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageViewController.swift; sourceTree = "<group>"; };
 		11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +94,7 @@
 		110CAA79215DB7A5006BC527 /* LeetCodeSolution */ = {
 			isa = PBXGroup;
 			children = (
+				11A8A5C2217DA54A008AB408 /* CodingInterviews */,
 				1128D7D32176C81C00B0FD25 /* LanguageGuide */,
 				1128D7C52176019400B0FD25 /* Other */,
 				11BF2DE9216D879F00060EA1 /* 1-50 */,
@@ -126,6 +137,14 @@
 			path = LanguageGuide;
 			sourceTree = "<group>";
 		};
+		11A8A5C2217DA54A008AB408 /* CodingInterviews */ = {
+			isa = PBXGroup;
+			children = (
+				11A8A5C3217DA56C008AB408 /* Problem50ViewController.swift */,
+			);
+			path = CodingInterviews;
+			sourceTree = "<group>";
+		};
 		11BF2DE9216D879F00060EA1 /* 1-50 */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +156,8 @@
 				1127EDB1217469CE003CA2C8 /* ZigZagConversionViewController.swift */,
 				1128D7BD2175A81A00B0FD25 /* PalindromeNumberViewController.swift */,
 				1128D7C12175AFE600B0FD25 /* ContainerWithMostWaterViewController.swift */,
+				11A455612180581F00D03A67 /* IntegerToRomanViewController.swift */,
+				11A4556321805EBC00D03A67 /* RomanToIntegerViewController.swift */,
 			);
 			path = "1-50";
 			sourceTree = "<group>";
@@ -145,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				11C5AC8921781090001E006C /* SortColorsViewController.swift */,
+				11A4555F21800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift */,
+				11618CFC217EEC5100F01A25 /* InterleavingStringViewController.swift */,
 			);
 			path = "51-100";
 			sourceTree = "<group>";
@@ -222,6 +245,7 @@
 			files = (
 				11BF2E0421702CC700060EA1 /* LongestSubstringWithoutRepeatingCharactersViewController.swift in Sources */,
 				110CAA7D215DB7A5006BC527 /* ViewController.swift in Sources */,
+				11A4556021800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift in Sources */,
 				1128D7CA2176023100B0FD25 /* BinarySearchViewController.swift in Sources */,
 				1128D7BF2175A81A00B0FD25 /* PalindromeNumberViewController.swift in Sources */,
 				1127EDB2217469CE003CA2C8 /* ZigZagConversionViewController.swift in Sources */,
@@ -229,12 +253,16 @@
 				11BF2DF9216EE32A00060EA1 /* RotateImageViewController.swift in Sources */,
 				11D05351215E07A7000E99FF /* MergeKSortedListsViewController.swift in Sources */,
 				11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */,
+				11A8A5C4217DA56C008AB408 /* Problem50ViewController.swift in Sources */,
 				11F37120215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift in Sources */,
 				11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */,
 				1128D7C32175AFE700B0FD25 /* ContainerWithMostWaterViewController.swift in Sources */,
 				11BF2E062170334200060EA1 /* MaximumSubarrayViewController.swift in Sources */,
+				11A455622180581F00D03A67 /* IntegerToRomanViewController.swift in Sources */,
 				110CAA7B215DB7A5006BC527 /* AppDelegate.swift in Sources */,
 				1128D7CC2176043700B0FD25 /* PoweringANumberViewController.swift in Sources */,
+				11A4556421805EBC00D03A67 /* RomanToIntegerViewController.swift in Sources */,
+				11618CFD217EEC5100F01A25 /* InterleavingStringViewController.swift in Sources */,
 				11C5AC8A21781090001E006C /* SortColorsViewController.swift in Sources */,
 				1128D7D52176C83900B0FD25 /* StringsAndCharactersViewController.swift in Sources */,
 			);

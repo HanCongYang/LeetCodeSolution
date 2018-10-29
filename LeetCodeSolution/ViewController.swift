@@ -109,7 +109,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        tb.scrollToRow(at: IndexPath(row: 74, section: 0), at: UITableViewScrollPosition.middle, animated: true)
+        tb.scrollToRow(at: IndexPath(row: 11, section: 0), at: UITableViewScrollPosition.middle, animated: true)
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1;
@@ -132,12 +132,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.textLabel?.text = "9. Palindrome Number"
         case 10:
             cell.textLabel?.text = "11. Container With Most Water"
+        case 11:
+            cell.textLabel?.text = "12. Integer to Roman"
+        case 12:
+            cell.textLabel?.text = "13. Roman to Integer"
         case 48:
             cell.textLabel?.text = "48. Rotate Image"
         case 52:
             cell.textLabel?.text = "53. Maximum Subarray"
         case 74:
             cell.textLabel?.text = "75. Sort Colors"
+        case 95:
+            cell.textLabel?.text = "96. Unique Binary Search Trees"
+        case 96:
+            cell.textLabel?.text = "75. Sort Colors"
+
         default:
             cell.textLabel?.text = ""
             break
@@ -163,6 +172,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case 10:
             vc = ContainerWithMostWaterViewController()
             self.navigationController?.pushViewController(vc, animated:true)
+        case 11:
+            vc = IntegerToRomanViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+        case 12:
+            vc = RomanToIntegerViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
         case 48:
             vc = MultiplyStringsViewController()
             self.navigationController?.pushViewController(vc, animated:true)
@@ -172,7 +187,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case 74:
             vc = SortColorsViewController()
             self.navigationController?.pushViewController(vc, animated:true)
-            
+        case 96:
+            vc = InterleavingStringViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+        case 95:
+            vc = UniqueBinarySearchTreesViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+
         default: break
         }
     }
