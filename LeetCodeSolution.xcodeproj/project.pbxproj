@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1106924B2199481500F0FB87 /* LongestCommonPrefixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106924A2199481500F0FB87 /* LongestCommonPrefixViewController.swift */; };
+		11069263219A9BBB00F0FB87 /* BinaryTreeInorderTraversalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11069262219A9BBB00F0FB87 /* BinaryTreeInorderTraversalViewController.swift */; };
 		110CAA7B215DB7A5006BC527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110CAA7A215DB7A5006BC527 /* AppDelegate.swift */; };
 		110CAA7D215DB7A5006BC527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110CAA7C215DB7A5006BC527 /* ViewController.swift */; };
 		110CAA80215DB7A5006BC527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110CAA7E215DB7A5006BC527 /* Main.storyboard */; };
@@ -30,11 +32,15 @@
 		11BF2E062170334200060EA1 /* MaximumSubarrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2E052170334200060EA1 /* MaximumSubarrayViewController.swift */; };
 		11C5AC8A21781090001E006C /* SortColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5AC8921781090001E006C /* SortColorsViewController.swift */; };
 		11D05351215E07A7000E99FF /* MergeKSortedListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D05350215E07A7000E99FF /* MergeKSortedListsViewController.swift */; };
+		11F1C88E2186D48F00CF5814 /* RemoveDuplicatesFromSortedArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1C88D2186D48F00CF5814 /* RemoveDuplicatesFromSortedArrayViewController.swift */; };
+		11F1C8902186D55400CF5814 /* MedianOfTwoSortedArraysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1C88F2186D55400CF5814 /* MedianOfTwoSortedArraysViewController.swift */; };
 		11F3711E215F145F00DD2206 /* TwoSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3711D215F145F00DD2206 /* TwoSumViewController.swift */; };
 		11F37120215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3711F215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1106924A2199481500F0FB87 /* LongestCommonPrefixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefixViewController.swift; sourceTree = "<group>"; };
+		11069262219A9BBB00F0FB87 /* BinaryTreeInorderTraversalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeInorderTraversalViewController.swift; sourceTree = "<group>"; };
 		110CAA77215DB7A5006BC527 /* LeetCodeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		110CAA7A215DB7A5006BC527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		110CAA7C215DB7A5006BC527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,8 @@
 		11BF2E052170334200060EA1 /* MaximumSubarrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarrayViewController.swift; sourceTree = "<group>"; };
 		11C5AC8921781090001E006C /* SortColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortColorsViewController.swift; sourceTree = "<group>"; };
 		11D05350215E07A7000E99FF /* MergeKSortedListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeKSortedListsViewController.swift; sourceTree = "<group>"; };
+		11F1C88D2186D48F00CF5814 /* RemoveDuplicatesFromSortedArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArrayViewController.swift; sourceTree = "<group>"; };
+		11F1C88F2186D55400CF5814 /* MedianOfTwoSortedArraysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArraysViewController.swift; sourceTree = "<group>"; };
 		11F3711D215F145F00DD2206 /* TwoSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumViewController.swift; sourceTree = "<group>"; };
 		11F3711F215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstringViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +159,7 @@
 				11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */,
 				11BF2E0321702CC700060EA1 /* LongestSubstringWithoutRepeatingCharactersViewController.swift */,
 				11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */,
+				11F1C88F2186D55400CF5814 /* MedianOfTwoSortedArraysViewController.swift */,
 				11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */,
 				11BF2E052170334200060EA1 /* MaximumSubarrayViewController.swift */,
 				1127EDB1217469CE003CA2C8 /* ZigZagConversionViewController.swift */,
@@ -158,6 +167,8 @@
 				1128D7C12175AFE600B0FD25 /* ContainerWithMostWaterViewController.swift */,
 				11A455612180581F00D03A67 /* IntegerToRomanViewController.swift */,
 				11A4556321805EBC00D03A67 /* RomanToIntegerViewController.swift */,
+				11F1C88D2186D48F00CF5814 /* RemoveDuplicatesFromSortedArrayViewController.swift */,
+				1106924A2199481500F0FB87 /* LongestCommonPrefixViewController.swift */,
 			);
 			path = "1-50";
 			sourceTree = "<group>";
@@ -168,6 +179,7 @@
 				11C5AC8921781090001E006C /* SortColorsViewController.swift */,
 				11A4555F21800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift */,
 				11618CFC217EEC5100F01A25 /* InterleavingStringViewController.swift */,
+				11069262219A9BBB00F0FB87 /* BinaryTreeInorderTraversalViewController.swift */,
 			);
 			path = "51-100";
 			sourceTree = "<group>";
@@ -245,6 +257,7 @@
 			files = (
 				11BF2E0421702CC700060EA1 /* LongestSubstringWithoutRepeatingCharactersViewController.swift in Sources */,
 				110CAA7D215DB7A5006BC527 /* ViewController.swift in Sources */,
+				1106924B2199481500F0FB87 /* LongestCommonPrefixViewController.swift in Sources */,
 				11A4556021800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift in Sources */,
 				1128D7CA2176023100B0FD25 /* BinarySearchViewController.swift in Sources */,
 				1128D7BF2175A81A00B0FD25 /* PalindromeNumberViewController.swift in Sources */,
@@ -263,6 +276,9 @@
 				1128D7CC2176043700B0FD25 /* PoweringANumberViewController.swift in Sources */,
 				11A4556421805EBC00D03A67 /* RomanToIntegerViewController.swift in Sources */,
 				11618CFD217EEC5100F01A25 /* InterleavingStringViewController.swift in Sources */,
+				11F1C88E2186D48F00CF5814 /* RemoveDuplicatesFromSortedArrayViewController.swift in Sources */,
+				11069263219A9BBB00F0FB87 /* BinaryTreeInorderTraversalViewController.swift in Sources */,
+				11F1C8902186D55400CF5814 /* MedianOfTwoSortedArraysViewController.swift in Sources */,
 				11C5AC8A21781090001E006C /* SortColorsViewController.swift in Sources */,
 				1128D7D52176C83900B0FD25 /* StringsAndCharactersViewController.swift in Sources */,
 			);

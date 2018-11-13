@@ -97,6 +97,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let array = [1,2,3,4,5,6,7,8,9,0]
+        print(array[3...4])
+        
+        var str : String = "Hello World"
+        print(str.remove(at: str.startIndex))
+//        str.removeSubrange(str.startIndex...str.index(str.startIndex, offsetBy: 4))
+        print(str)
+        
         tb.delegate = self;
         tb.dataSource = self;
         tb.frame = self.view.frame
@@ -126,6 +134,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.textLabel?.text = "2. Add Two Number"
         case 2:
             cell.textLabel?.text = "3. Longest Substring Without Repeating Characters"
+        case 3:
+            cell.textLabel?.text = "4. Median of Two Sorted Arrays"
         case 5:
             cell.textLabel?.text = "6. ZigZag Conversion"
         case 8:
@@ -136,6 +146,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.textLabel?.text = "12. Integer to Roman"
         case 12:
             cell.textLabel?.text = "13. Roman to Integer"
+        case 13:
+            cell.textLabel?.text = "14. Longest Common Prefix"
         case 48:
             cell.textLabel?.text = "48. Rotate Image"
         case 52:
@@ -163,6 +175,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case 2:
             vc = LongestSubstringWithoutRepeatingCharactersViewController()
             self.navigationController?.pushViewController(vc, animated:true)
+        case 3:
+            vc = MedianOfTwoSortedArraysViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
         case 5:
             vc = ZigZagConversionViewController()
             self.navigationController?.pushViewController(vc, animated:true)
@@ -177,6 +192,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.navigationController?.pushViewController(vc, animated:true)
         case 12:
             vc = RomanToIntegerViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+        case 13:
+            vc = LongestCommonPrefixViewController()
             self.navigationController?.pushViewController(vc, animated:true)
         case 48:
             vc = MultiplyStringsViewController()
