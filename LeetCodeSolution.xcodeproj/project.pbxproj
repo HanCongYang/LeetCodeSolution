@@ -25,6 +25,8 @@
 		11A455622180581F00D03A67 /* IntegerToRomanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A455612180581F00D03A67 /* IntegerToRomanViewController.swift */; };
 		11A4556421805EBC00D03A67 /* RomanToIntegerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4556321805EBC00D03A67 /* RomanToIntegerViewController.swift */; };
 		11A8A5C4217DA56C008AB408 /* Problem50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8A5C3217DA56C008AB408 /* Problem50ViewController.swift */; };
+		11B02D85219D36510054B729 /* HappyNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B02D84219D36510054B729 /* HappyNumberViewController.swift */; };
+		11B1214B219C0CF9008C12ED /* FourSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1214A219C0CF9008C12ED /* FourSumViewController.swift */; };
 		11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */; };
 		11BF2DF9216EE32A00060EA1 /* RotateImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */; };
 		11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */; };
@@ -59,6 +61,8 @@
 		11A455612180581F00D03A67 /* IntegerToRomanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerToRomanViewController.swift; sourceTree = "<group>"; };
 		11A4556321805EBC00D03A67 /* RomanToIntegerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntegerViewController.swift; sourceTree = "<group>"; };
 		11A8A5C3217DA56C008AB408 /* Problem50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem50ViewController.swift; sourceTree = "<group>"; };
+		11B02D84219D36510054B729 /* HappyNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumberViewController.swift; sourceTree = "<group>"; };
+		11B1214A219C0CF9008C12ED /* FourSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSumViewController.swift; sourceTree = "<group>"; };
 		11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStringsViewController.swift; sourceTree = "<group>"; };
 		11BF2DF8216EE32A00060EA1 /* RotateImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageViewController.swift; sourceTree = "<group>"; };
 		11BF2E01216F2D5F00060EA1 /* AddTwoNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 				1128D7C52176019400B0FD25 /* Other */,
 				11BF2DE9216D879F00060EA1 /* 1-50 */,
 				11C5AC8821780F5B001E006C /* 51-100 */,
+				11B02D83219D36330054B729 /* 200-250 */,
 				110CAA7A215DB7A5006BC527 /* AppDelegate.swift */,
 				110CAA7C215DB7A5006BC527 /* ViewController.swift */,
 				11D05350215E07A7000E99FF /* MergeKSortedListsViewController.swift */,
@@ -153,6 +158,14 @@
 			path = CodingInterviews;
 			sourceTree = "<group>";
 		};
+		11B02D83219D36330054B729 /* 200-250 */ = {
+			isa = PBXGroup;
+			children = (
+				11B02D84219D36510054B729 /* HappyNumberViewController.swift */,
+			);
+			path = "200-250";
+			sourceTree = "<group>";
+		};
 		11BF2DE9216D879F00060EA1 /* 1-50 */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +182,7 @@
 				11A4556321805EBC00D03A67 /* RomanToIntegerViewController.swift */,
 				11F1C88D2186D48F00CF5814 /* RemoveDuplicatesFromSortedArrayViewController.swift */,
 				1106924A2199481500F0FB87 /* LongestCommonPrefixViewController.swift */,
+				11B1214A219C0CF9008C12ED /* FourSumViewController.swift */,
 			);
 			path = "1-50";
 			sourceTree = "<group>";
@@ -279,6 +293,8 @@
 				11F1C88E2186D48F00CF5814 /* RemoveDuplicatesFromSortedArrayViewController.swift in Sources */,
 				11069263219A9BBB00F0FB87 /* BinaryTreeInorderTraversalViewController.swift in Sources */,
 				11F1C8902186D55400CF5814 /* MedianOfTwoSortedArraysViewController.swift in Sources */,
+				11B02D85219D36510054B729 /* HappyNumberViewController.swift in Sources */,
+				11B1214B219C0CF9008C12ED /* FourSumViewController.swift in Sources */,
 				11C5AC8A21781090001E006C /* SortColorsViewController.swift in Sources */,
 				1128D7D52176C83900B0FD25 /* StringsAndCharactersViewController.swift in Sources */,
 			);

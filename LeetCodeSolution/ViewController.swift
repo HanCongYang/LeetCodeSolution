@@ -130,6 +130,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
         switch indexPath.row {
+        case 0:
+            cell.textLabel?.text = "202. Happy Number"
         case 1:
             cell.textLabel?.text = "2. Add Two Number"
         case 2:
@@ -148,6 +150,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.textLabel?.text = "13. Roman to Integer"
         case 13:
             cell.textLabel?.text = "14. Longest Common Prefix"
+        case 17:
+            cell.textLabel?.text = "18. 4Sum"
         case 48:
             cell.textLabel?.text = "48. Rotate Image"
         case 52:
@@ -169,6 +173,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         var vc : UIViewController
         switch indexPath.row {
+        case 0:
+            vc = HappyNumberViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
         case 1:
             vc = AddTwoNumbersViewController()
             self.navigationController?.pushViewController(vc, animated:true)
@@ -195,6 +202,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.navigationController?.pushViewController(vc, animated:true)
         case 13:
             vc = LongestCommonPrefixViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+        case 17:
+            vc = FourSumViewController()
             self.navigationController?.pushViewController(vc, animated:true)
         case 48:
             vc = MultiplyStringsViewController()
