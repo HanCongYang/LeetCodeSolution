@@ -20,11 +20,15 @@
 		1128D7CA2176023100B0FD25 /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7C92176023100B0FD25 /* BinarySearchViewController.swift */; };
 		1128D7CC2176043700B0FD25 /* PoweringANumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7CB2176043700B0FD25 /* PoweringANumberViewController.swift */; };
 		1128D7D52176C83900B0FD25 /* StringsAndCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7D42176C83900B0FD25 /* StringsAndCharactersViewController.swift */; };
+		11314EBC21AE284000568570 /* BitwiseAndOfNumbersRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11314EBB21AE284000568570 /* BitwiseAndOfNumbersRangeViewController.swift */; };
 		11618CFD217EEC5100F01A25 /* InterleavingStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11618CFC217EEC5100F01A25 /* InterleavingStringViewController.swift */; };
 		11A4556021800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4555F21800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift */; };
 		11A455622180581F00D03A67 /* IntegerToRomanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A455612180581F00D03A67 /* IntegerToRomanViewController.swift */; };
 		11A4556421805EBC00D03A67 /* RomanToIntegerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4556321805EBC00D03A67 /* RomanToIntegerViewController.swift */; };
 		11A8A5C4217DA56C008AB408 /* Problem50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8A5C3217DA56C008AB408 /* Problem50ViewController.swift */; };
+		11AE22B921B0C6A3005F2BE6 /* RemoveLinkedListElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE22B821B0C6A3005F2BE6 /* RemoveLinkedListElementsViewController.swift */; };
+		11AE22BC21B0D2C8005F2BE6 /* ListNodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE22BB21B0D2C8005F2BE6 /* ListNodeExtension.swift */; };
+		11AE22BF21B0D365005F2BE6 /* CountPrimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE22BE21B0D365005F2BE6 /* CountPrimesViewController.swift */; };
 		11B02D85219D36510054B729 /* HappyNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B02D84219D36510054B729 /* HappyNumberViewController.swift */; };
 		11B1214B219C0CF9008C12ED /* FourSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1214A219C0CF9008C12ED /* FourSumViewController.swift */; };
 		11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */; };
@@ -56,11 +60,15 @@
 		1128D7C92176023100B0FD25 /* BinarySearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
 		1128D7CB2176043700B0FD25 /* PoweringANumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoweringANumberViewController.swift; sourceTree = "<group>"; };
 		1128D7D42176C83900B0FD25 /* StringsAndCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsAndCharactersViewController.swift; sourceTree = "<group>"; };
+		11314EBB21AE284000568570 /* BitwiseAndOfNumbersRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitwiseAndOfNumbersRangeViewController.swift; sourceTree = "<group>"; };
 		11618CFC217EEC5100F01A25 /* InterleavingStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterleavingStringViewController.swift; sourceTree = "<group>"; };
 		11A4555F21800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueBinarySearchTreesViewController.swift; sourceTree = "<group>"; };
 		11A455612180581F00D03A67 /* IntegerToRomanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerToRomanViewController.swift; sourceTree = "<group>"; };
 		11A4556321805EBC00D03A67 /* RomanToIntegerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntegerViewController.swift; sourceTree = "<group>"; };
 		11A8A5C3217DA56C008AB408 /* Problem50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem50ViewController.swift; sourceTree = "<group>"; };
+		11AE22B821B0C6A3005F2BE6 /* RemoveLinkedListElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElementsViewController.swift; sourceTree = "<group>"; };
+		11AE22BB21B0D2C8005F2BE6 /* ListNodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNodeExtension.swift; sourceTree = "<group>"; };
+		11AE22BE21B0D365005F2BE6 /* CountPrimesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPrimesViewController.swift; sourceTree = "<group>"; };
 		11B02D84219D36510054B729 /* HappyNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumberViewController.swift; sourceTree = "<group>"; };
 		11B1214A219C0CF9008C12ED /* FourSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSumViewController.swift; sourceTree = "<group>"; };
 		11BF2DEA216D980700060EA1 /* MultiplyStringsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStringsViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +114,7 @@
 		110CAA79215DB7A5006BC527 /* LeetCodeSolution */ = {
 			isa = PBXGroup;
 			children = (
+				11AE22BA21B0D2B3005F2BE6 /* Tool */,
 				11A8A5C2217DA54A008AB408 /* CodingInterviews */,
 				1128D7D32176C81C00B0FD25 /* LanguageGuide */,
 				1128D7C52176019400B0FD25 /* Other */,
@@ -158,10 +167,21 @@
 			path = CodingInterviews;
 			sourceTree = "<group>";
 		};
+		11AE22BA21B0D2B3005F2BE6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				11AE22BB21B0D2C8005F2BE6 /* ListNodeExtension.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		11B02D83219D36330054B729 /* 200-250 */ = {
 			isa = PBXGroup;
 			children = (
 				11B02D84219D36510054B729 /* HappyNumberViewController.swift */,
+				11314EBB21AE284000568570 /* BitwiseAndOfNumbersRangeViewController.swift */,
+				11AE22B821B0C6A3005F2BE6 /* RemoveLinkedListElementsViewController.swift */,
+				11AE22BE21B0D365005F2BE6 /* CountPrimesViewController.swift */,
 			);
 			path = "200-250";
 			sourceTree = "<group>";
@@ -230,6 +250,7 @@
 				TargetAttributes = {
 					110CAA76215DB7A5006BC527 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -279,12 +300,16 @@
 				11F3711E215F145F00DD2206 /* TwoSumViewController.swift in Sources */,
 				11BF2DF9216EE32A00060EA1 /* RotateImageViewController.swift in Sources */,
 				11D05351215E07A7000E99FF /* MergeKSortedListsViewController.swift in Sources */,
+				11AE22B921B0C6A3005F2BE6 /* RemoveLinkedListElementsViewController.swift in Sources */,
 				11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */,
 				11A8A5C4217DA56C008AB408 /* Problem50ViewController.swift in Sources */,
 				11F37120215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift in Sources */,
 				11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */,
+				11AE22BC21B0D2C8005F2BE6 /* ListNodeExtension.swift in Sources */,
 				1128D7C32175AFE700B0FD25 /* ContainerWithMostWaterViewController.swift in Sources */,
 				11BF2E062170334200060EA1 /* MaximumSubarrayViewController.swift in Sources */,
+				11AE22BF21B0D365005F2BE6 /* CountPrimesViewController.swift in Sources */,
+				11314EBC21AE284000568570 /* BitwiseAndOfNumbersRangeViewController.swift in Sources */,
 				11A455622180581F00D03A67 /* IntegerToRomanViewController.swift in Sources */,
 				110CAA7B215DB7A5006BC527 /* AppDelegate.swift in Sources */,
 				1128D7CC2176043700B0FD25 /* PoweringANumberViewController.swift in Sources */,
@@ -440,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SZT3QS42T8;
 				INFOPLIST_FILE = LeetCodeSolution/Info.plist;
@@ -449,6 +475,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcy.www.LeetCodeSolution;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SZT3QS42T8;
 				INFOPLIST_FILE = LeetCodeSolution/Info.plist;

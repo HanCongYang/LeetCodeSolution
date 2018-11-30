@@ -42,22 +42,6 @@ class AddTwoNumbersViewController: UIViewController {
      return sentinel.next;
      }
      */
-    func listNodeFromArray(_ array: [Int]) -> ListNode {
-        var list : ListNode?
-        var result : ListNode?
-
-        for (index, number) in array.enumerated() {
-            if index == 0 {
-                list = ListNode(number)
-                result = list;
-            } else {
-                let next = ListNode(number)
-                list?.next = next
-                list = next;
-            }
-        }
-        return result!
-    }
     
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         

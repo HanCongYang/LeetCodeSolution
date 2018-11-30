@@ -117,14 +117,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        tb.scrollToRow(at: IndexPath(row: 11, section: 0), at: UITableViewScrollPosition.middle, animated: true)
+        tb.scrollToRow(at: IndexPath(row: 200, section: 0), at: UITableViewScrollPosition.middle, animated: true)
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1;
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 100
+        return 300
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -162,7 +162,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.textLabel?.text = "96. Unique Binary Search Trees"
         case 96:
             cell.textLabel?.text = "75. Sort Colors"
-
+        case 200:
+            cell.textLabel?.text = "201. Bitwise AND of Numbers Range"
+        case 202:
+            cell.textLabel?.text = "203. Remove Linked List Elements"
+        case 203:
+            cell.textLabel?.text = "204. Count Primes"
         default:
             cell.textLabel?.text = ""
             break
@@ -221,7 +226,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case 95:
             vc = UniqueBinarySearchTreesViewController()
             self.navigationController?.pushViewController(vc, animated:true)
-
+        case 200:
+            vc = BitwiseAndOfNumbersRangeViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+        case 202:
+            vc = RemoveLinkedListElementsViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+        case 203:
+            vc = CountPrimesViewController()
+            self.navigationController?.pushViewController(vc, animated:true)
+            
         default: break
         }
     }
