@@ -17,6 +17,10 @@ class LongestCommonPrefixViewController: UIViewController {
     
 
     func longestCommonPrefix(_ strs: [String]) -> String {
+        
+        guard strs.count > 0 else {
+            return ""
+        }
 
         let shortestWord = strs.min{$0.count < $1.count}!
         var longestPrefix = shortestWord

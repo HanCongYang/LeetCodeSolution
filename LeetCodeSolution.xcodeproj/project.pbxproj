@@ -17,10 +17,11 @@
 		1127EDB2217469CE003CA2C8 /* ZigZagConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127EDB1217469CE003CA2C8 /* ZigZagConversionViewController.swift */; };
 		1128D7BF2175A81A00B0FD25 /* PalindromeNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7BD2175A81A00B0FD25 /* PalindromeNumberViewController.swift */; };
 		1128D7C32175AFE700B0FD25 /* ContainerWithMostWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7C12175AFE600B0FD25 /* ContainerWithMostWaterViewController.swift */; };
-		1128D7CA2176023100B0FD25 /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7C92176023100B0FD25 /* BinarySearchViewController.swift */; };
 		1128D7CC2176043700B0FD25 /* PoweringANumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7CB2176043700B0FD25 /* PoweringANumberViewController.swift */; };
 		1128D7D52176C83900B0FD25 /* StringsAndCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128D7D42176C83900B0FD25 /* StringsAndCharactersViewController.swift */; };
 		11314EBC21AE284000568570 /* BitwiseAndOfNumbersRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11314EBB21AE284000568570 /* BitwiseAndOfNumbersRangeViewController.swift */; };
+		11493E2021B8B620008831AE /* ThreeSumClosestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11493E1F21B8B620008831AE /* ThreeSumClosestViewController.swift */; };
+		11493E2621B8EB05008831AE /* ThreeSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11493E2521B8EB05008831AE /* ThreeSumViewController.swift */; };
 		11618CFD217EEC5100F01A25 /* InterleavingStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11618CFC217EEC5100F01A25 /* InterleavingStringViewController.swift */; };
 		11A4556021800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4555F21800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift */; };
 		11A455622180581F00D03A67 /* IntegerToRomanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A455612180581F00D03A67 /* IntegerToRomanViewController.swift */; };
@@ -42,6 +43,10 @@
 		11F1C8902186D55400CF5814 /* MedianOfTwoSortedArraysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1C88F2186D55400CF5814 /* MedianOfTwoSortedArraysViewController.swift */; };
 		11F3711E215F145F00DD2206 /* TwoSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3711D215F145F00DD2206 /* TwoSumViewController.swift */; };
 		11F37120215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3711F215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift */; };
+		11FA149621B51D7D0067EE3F /* BestTimeToBuyAndSellStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA149521B51D7D0067EE3F /* BestTimeToBuyAndSellStockViewController.swift */; };
+		11FA14A621B64E1F0067EE3F /* SameTreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA14A521B64E1F0067EE3F /* SameTreeViewController.swift */; };
+		11FA14AC21B66D520067EE3F /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA14AB21B66D520067EE3F /* BinarySearchViewController.swift */; };
+		11FA14AF21B75D4A0067EE3F /* HouseRobberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA14AE21B75D4A0067EE3F /* HouseRobberViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,10 +62,11 @@
 		1127EDB1217469CE003CA2C8 /* ZigZagConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversionViewController.swift; sourceTree = "<group>"; };
 		1128D7BD2175A81A00B0FD25 /* PalindromeNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumberViewController.swift; sourceTree = "<group>"; };
 		1128D7C12175AFE600B0FD25 /* ContainerWithMostWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterViewController.swift; sourceTree = "<group>"; };
-		1128D7C92176023100B0FD25 /* BinarySearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
 		1128D7CB2176043700B0FD25 /* PoweringANumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoweringANumberViewController.swift; sourceTree = "<group>"; };
 		1128D7D42176C83900B0FD25 /* StringsAndCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsAndCharactersViewController.swift; sourceTree = "<group>"; };
 		11314EBB21AE284000568570 /* BitwiseAndOfNumbersRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitwiseAndOfNumbersRangeViewController.swift; sourceTree = "<group>"; };
+		11493E1F21B8B620008831AE /* ThreeSumClosestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosestViewController.swift; sourceTree = "<group>"; };
+		11493E2521B8EB05008831AE /* ThreeSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumViewController.swift; sourceTree = "<group>"; };
 		11618CFC217EEC5100F01A25 /* InterleavingStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterleavingStringViewController.swift; sourceTree = "<group>"; };
 		11A4555F21800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueBinarySearchTreesViewController.swift; sourceTree = "<group>"; };
 		11A455612180581F00D03A67 /* IntegerToRomanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerToRomanViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +88,10 @@
 		11F1C88F2186D55400CF5814 /* MedianOfTwoSortedArraysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArraysViewController.swift; sourceTree = "<group>"; };
 		11F3711D215F145F00DD2206 /* TwoSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumViewController.swift; sourceTree = "<group>"; };
 		11F3711F215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstringViewController.swift; sourceTree = "<group>"; };
+		11FA149521B51D7D0067EE3F /* BestTimeToBuyAndSellStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStockViewController.swift; sourceTree = "<group>"; };
+		11FA14A521B64E1F0067EE3F /* SameTreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTreeViewController.swift; sourceTree = "<group>"; };
+		11FA14AB21B66D520067EE3F /* BinarySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
+		11FA14AE21B75D4A0067EE3F /* HouseRobberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobberViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +124,15 @@
 		110CAA79215DB7A5006BC527 /* LeetCodeSolution */ = {
 			isa = PBXGroup;
 			children = (
+				1192984421CFBF0100FCACD5 /* ArmToOffer */,
+				11FA14AA21B66C060067EE3F /* Algorithm */,
 				11AE22BA21B0D2B3005F2BE6 /* Tool */,
 				11A8A5C2217DA54A008AB408 /* CodingInterviews */,
 				1128D7D32176C81C00B0FD25 /* LanguageGuide */,
 				1128D7C52176019400B0FD25 /* Other */,
 				11BF2DE9216D879F00060EA1 /* 1-50 */,
 				11C5AC8821780F5B001E006C /* 51-100 */,
+				11FA149421B51D650067EE3F /* 101-199 */,
 				11B02D83219D36330054B729 /* 200-250 */,
 				110CAA7A215DB7A5006BC527 /* AppDelegate.swift */,
 				110CAA7C215DB7A5006BC527 /* ViewController.swift */,
@@ -145,7 +158,6 @@
 		1128D7C82176021B00B0FD25 /* DivideAndConquer */ = {
 			isa = PBXGroup;
 			children = (
-				1128D7C92176023100B0FD25 /* BinarySearchViewController.swift */,
 				1128D7CB2176043700B0FD25 /* PoweringANumberViewController.swift */,
 			);
 			path = DivideAndConquer;
@@ -157,6 +169,13 @@
 				1128D7D42176C83900B0FD25 /* StringsAndCharactersViewController.swift */,
 			);
 			path = LanguageGuide;
+			sourceTree = "<group>";
+		};
+		1192984421CFBF0100FCACD5 /* ArmToOffer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ArmToOffer;
 			sourceTree = "<group>";
 		};
 		11A8A5C2217DA54A008AB408 /* CodingInterviews */ = {
@@ -203,6 +222,8 @@
 				11F1C88D2186D48F00CF5814 /* RemoveDuplicatesFromSortedArrayViewController.swift */,
 				1106924A2199481500F0FB87 /* LongestCommonPrefixViewController.swift */,
 				11B1214A219C0CF9008C12ED /* FourSumViewController.swift */,
+				11493E1F21B8B620008831AE /* ThreeSumClosestViewController.swift */,
+				11493E2521B8EB05008831AE /* ThreeSumViewController.swift */,
 			);
 			path = "1-50";
 			sourceTree = "<group>";
@@ -214,8 +235,26 @@
 				11A4555F21800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift */,
 				11618CFC217EEC5100F01A25 /* InterleavingStringViewController.swift */,
 				11069262219A9BBB00F0FB87 /* BinaryTreeInorderTraversalViewController.swift */,
+				11FA14A521B64E1F0067EE3F /* SameTreeViewController.swift */,
 			);
 			path = "51-100";
+			sourceTree = "<group>";
+		};
+		11FA149421B51D650067EE3F /* 101-199 */ = {
+			isa = PBXGroup;
+			children = (
+				11FA149521B51D7D0067EE3F /* BestTimeToBuyAndSellStockViewController.swift */,
+				11FA14AE21B75D4A0067EE3F /* HouseRobberViewController.swift */,
+			);
+			path = "101-199";
+			sourceTree = "<group>";
+		};
+		11FA14AA21B66C060067EE3F /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				11FA14AB21B66D520067EE3F /* BinarySearchViewController.swift */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,20 +333,22 @@
 				110CAA7D215DB7A5006BC527 /* ViewController.swift in Sources */,
 				1106924B2199481500F0FB87 /* LongestCommonPrefixViewController.swift in Sources */,
 				11A4556021800D2700D03A67 /* UniqueBinarySearchTreesViewController.swift in Sources */,
-				1128D7CA2176023100B0FD25 /* BinarySearchViewController.swift in Sources */,
 				1128D7BF2175A81A00B0FD25 /* PalindromeNumberViewController.swift in Sources */,
 				1127EDB2217469CE003CA2C8 /* ZigZagConversionViewController.swift in Sources */,
 				11F3711E215F145F00DD2206 /* TwoSumViewController.swift in Sources */,
+				11493E2021B8B620008831AE /* ThreeSumClosestViewController.swift in Sources */,
 				11BF2DF9216EE32A00060EA1 /* RotateImageViewController.swift in Sources */,
 				11D05351215E07A7000E99FF /* MergeKSortedListsViewController.swift in Sources */,
 				11AE22B921B0C6A3005F2BE6 /* RemoveLinkedListElementsViewController.swift in Sources */,
 				11BF2DEB216D980700060EA1 /* MultiplyStringsViewController.swift in Sources */,
 				11A8A5C4217DA56C008AB408 /* Problem50ViewController.swift in Sources */,
+				11493E2621B8EB05008831AE /* ThreeSumViewController.swift in Sources */,
 				11F37120215F1EB200DD2206 /* LongestPalindromicSubstringViewController.swift in Sources */,
 				11BF2E02216F2D5F00060EA1 /* AddTwoNumbersViewController.swift in Sources */,
 				11AE22BC21B0D2C8005F2BE6 /* ListNodeExtension.swift in Sources */,
 				1128D7C32175AFE700B0FD25 /* ContainerWithMostWaterViewController.swift in Sources */,
 				11BF2E062170334200060EA1 /* MaximumSubarrayViewController.swift in Sources */,
+				11FA14AF21B75D4A0067EE3F /* HouseRobberViewController.swift in Sources */,
 				11AE22BF21B0D365005F2BE6 /* CountPrimesViewController.swift in Sources */,
 				11314EBC21AE284000568570 /* BitwiseAndOfNumbersRangeViewController.swift in Sources */,
 				11A455622180581F00D03A67 /* IntegerToRomanViewController.swift in Sources */,
@@ -320,7 +361,10 @@
 				11F1C8902186D55400CF5814 /* MedianOfTwoSortedArraysViewController.swift in Sources */,
 				11B02D85219D36510054B729 /* HappyNumberViewController.swift in Sources */,
 				11B1214B219C0CF9008C12ED /* FourSumViewController.swift in Sources */,
+				11FA14AC21B66D520067EE3F /* BinarySearchViewController.swift in Sources */,
 				11C5AC8A21781090001E006C /* SortColorsViewController.swift in Sources */,
+				11FA149621B51D7D0067EE3F /* BestTimeToBuyAndSellStockViewController.swift in Sources */,
+				11FA14A621B64E1F0067EE3F /* SameTreeViewController.swift in Sources */,
 				1128D7D52176C83900B0FD25 /* StringsAndCharactersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
